@@ -48,9 +48,6 @@ frontend/
 └─ assets/
 └─ fundo.png
 
-yaml
-Copiar código
-
 ---
 
 ## ▶️ Como Executar o Projeto
