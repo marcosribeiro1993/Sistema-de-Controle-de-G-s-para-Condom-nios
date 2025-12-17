@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Leituras</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="dashboard-page">
+  <main class="layout">
+
+    <section class="card">
+
+      <div class="card-header">
+        <h1>Registro de Leituras</h1>
+        <p>Controle de consumo de gás</p>
+      
+      </div>
+
+
+      <div class="card-body">
+      <label>Gasômetro</label>
+      <select id="gasometro" required>
+        <option value="">Selecione o gasômetro</option>
+      </select>
+      
+      <label>Periodicidade</label>
+      <select id="periodicidade" required>
+        <option value="">Selecione a periodicidade</option>
+         <option value="mensal">mensal</option>
+        <option value="semestral">Semestral</option>
+        <option value="anual">Anual</option>
+      </select>
+      
+      <p id="mensagem"></p>
+
+
+        <label>Data da Leitura</label>
+        <input type="date">
+
+        <label>Consumo (m³)</label>
+        <input type="number">
+
+    
+
+        <button class="btn-primary">Registrar Leitura</button>
+      </div>
+
+      <div class="card-footer">
+        Sistema de Controle de Gás © 2025
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="../js/guard.js"></script>
+  <script src="../js/leituras.js"></script>
+  <script src="../js/guard.js"></script>
+
+</body>
+</html>
