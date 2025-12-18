@@ -15,7 +15,6 @@ proteção de rotas, registro de leituras e integração com API REST.
 - Seleção de gasômetros (apartamentos)
 - Validação de formulário
 - Mensagens de feedback animadas
-- Logout funcional
 - Layout responsivo (mobile e desktop)
 - Fallback para ambiente sem backend
 
@@ -27,7 +26,6 @@ proteção de rotas, registro de leituras e integração com API REST.
 - CSS3 (Flexbox, responsividade)
 - JavaScript (ES6+)
 - API REST (Django – backend opcional)
-- GitHub Pages (frontend)
 
 ---
 
@@ -39,6 +37,9 @@ frontend/
 │ └─ dashboard.html
 ├─ css/
 │ └─ style.css
+├─ HTML/
+  ├─ index.html
+  └── dashboard.html
 ├─ js/
 │ ├─ auth.js
 │ ├─ guard.js
